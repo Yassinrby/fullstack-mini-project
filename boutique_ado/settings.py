@@ -118,7 +118,7 @@ WSGI_APPLICATION = 'boutique_ado.wsgi.application'
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
-        'default': dj_database_url.parse(os.environ.get('postgres://pzykevaxffroms:57279610d50e1a1a4d3f4d39218b0d2e1640ca3ae32af0a98b22224b7dac6668@ec2-54-155-87-214.eu-west-1.compute.amazonaws.com:5432/d5ti6ote0odjve'))
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else:
     DATABASES = {
