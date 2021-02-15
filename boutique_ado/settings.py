@@ -28,6 +28,8 @@ ALLOWED_HOSTS = ['yassinrby-boutique-ado.herokuapp.com', 'localhost']
 
 # Application definition
 
+
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
